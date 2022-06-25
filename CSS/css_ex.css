@@ -1,0 +1,208 @@
+#webDev {}
+#cplus {}
+#java {}
+#python {}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------General Styling in the page index-----------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+	h1
+		{
+			/*Setting for heading of size 1*/
+			text-shadow: 2px 2px 2px #666666;
+			font-size: 45px;
+			font-family: arial;
+			text-align: center;
+			colo: #CBF83E;
+		}
+
+	h2
+		{
+			/*Setting for heading of size 2*/
+			text-shadow: 2px 1px 1px #b3b3b3
+			font-family: arial;
+		}
+
+	h3	
+		{
+			/*Setting for heading of size 3*/
+			font-size: 30px;
+			text-shadow: 2px 1px 1px #b3b3b3;
+			font-family: arial;
+		}
+
+	img 
+		{
+			/*restriction on the sizing of images*/
+			max-width: 10%;
+			height: auto;
+			width: auto\9; 
+		}
+	
+	#header 
+		{ 
+			/*Default Setting for most of the page*/
+			background:#D8DFEE; /*url(bannerColor3.png) no-repeat white;*/
+			background-size: 100%;
+			text-align: left;
+			color: #515359;
+			
+		}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------Top Navigation Styling---------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+	#topNav 
+		{
+			/*Settings on the sizing of the top navigation*/
+			float: right;
+			width:42.5%;
+			list-style-type: none;
+			margin: 0;
+			padding-right: 30px;
+			overflow: hidden;
+		}
+
+	#topNav li a
+		{
+			/*Settings pertainting to the text in the top navigation*/
+			float: right;
+			display: block;
+			font-size: 18px;
+			font-family: arial;
+			color:#515359;
+			text-shadow: 2px 1px 1px #666666
+			text-align: center;
+			padding: 10px 15px;
+			text-decoration: none;
+		}
+
+	#topNav li a:hover
+		{
+			/*What happens when you hover over the navigatioin*/
+			color:white;
+			text-decoration: underline;
+		}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------Main Navigation Styling---------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+	#nav 
+		{
+			/*This is the settings for the main navigation*/
+			width: 100%;
+			float: left;
+			margin: 10px 50px 10px 10px;
+			padding: 2px;
+			list-style: none;
+			background-color: #ABA8A9;
+			border: 2px solid #763626;  
+			font-family: arial;
+		}
+
+	#nav li 
+		{	
+			/*This is to justify the navigation links left.*/
+			float: left; 
+		}
+
+	#nav li a 
+		{	
+			/*These are the links in the navigation*/
+			display: block;
+			padding: 8px 15px;
+			text-decoration: none;
+			font-weight: bold;
+			color: white;
+			border-right: 2px solid #763626; 
+		}
+
+	#nav li a:hover 
+		{
+			/*How the link will respond when you hover your mouse over it*/
+			color: navy;
+			background-color: white; 
+		}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------Information About The Page---------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+	.centerText
+		{
+			/*This is the center text which says what our website is about*/
+			padding: 10px 0;
+			font-size: 20px;
+			border:solid 2px #763626;
+			margin: 100px 50px 75px 100px;
+			text-align: center;
+			font-family: arial;
+			text-shadow: 2px 1px 1px #b3b3b3
+		}
+		
+
+	#videos li
+		{	
+			/*Adjust drop down box width and height to a large and readable size*/	
+			font-size: 30px;
+			display: block;
+			text-align: center;
+			font-family: arial;
+			padding: 15px 0px;
+			
+		}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------Flex Container Sytling For Information---------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+	.flex-container 
+		{
+			/*This is the adjustements for the flexbox container*/
+ 			display: flex;
+			height: 300px;
+			margin-right: 50px;
+			margin-left: 50px;
+			
+			
+		}
+
+	.flex-container > div 
+		{	
+			/*This is the content inside the flex box.*/
+  			background-color: #f1f1f1;
+  			margin: 10px;
+  			padding: 10px;
+  			font-size: 20px;
+			text-shadow: 2px 1px 1px #b3b3b3;
+			font-family: arial;
+		}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------Bottom Navigation Styling---------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+	#botNav
+		{
+			border-top: 3px solid black;
+			width:100%;
+			float: right;
+			background-color:rgba(0,0,0,0);
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			font-family: arial;
+		}
+
+	#botNav li a
+		{
+			float: right;
+			background-color:rgba(0,0,0,0);
+			display: block;
+			font-size: 20px;
+			font-family: serif;
+			color: black;
+			text-align: center;
+			padding: 5px 15px;
+			text-decoration: none;
+		}
+
+	#botNav li a:hover
+		{
+			/*what happens when you hover over bottom navigation/*
+			background-color: lightgray;
+			color:white;
+		}
